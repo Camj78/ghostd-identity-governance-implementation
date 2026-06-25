@@ -2,156 +2,315 @@
 
 ### Enterprise Identity Governance Implementation
 
-A comprehensive Microsoft Entra ID implementation demonstrating Identity Governance principles through Role-Based Access Control (RBAC), Joiner-Mover-Leaver (JML) lifecycle management, access certification, remediation workflows, and audit-ready governance documentation.
+> End-to-end Microsoft Entra ID Identity Governance implementation demonstrating **Role-Based Access Control (RBAC)**, **Identity Lifecycle Management (Joiner–Mover–Leaver)**, **Access Certification**, **Remediation Workflows**, and **Audit-Ready Governance Documentation**.
+
+![Status](https://img.shields.io/badge/Project-Complete-success)
+![Platform](https://img.shields.io/badge/Platform-Microsoft%20Entra%20ID-0078D4)
+![Focus](https://img.shields.io/badge/Focus-Identity%20Governance-blue)
+![Lifecycle](https://img.shields.io/badge/JML-Implemented-brightgreen)
+![Documentation](https://img.shields.io/badge/Documentation-Enterprise-green)
 
 ---
 
-**Core Capabilities**
+## Table of Contents
 
-- Identity Foundation
+- [Executive Overview](#executive-overview)
+- [Business Objectives](#business-objectives)
+- [Solution Overview](#solution-overview)
+- [Solution Architecture](#solution-architecture)
+- [Technology Stack](#technology-stack)
+- [Implementation Roadmap](#implementation-roadmap)
+- [Solution Gallery](#solution-gallery)
+- [Skills Demonstrated](#skills-demonstrated)
+- [Business Outcomes](#business-outcomes)
+- [Repository Structure](#repository-structure)
+- [Project Documentation](#project-documentation)
+- [Future Enhancements](#future-enhancements)
+- [Author](#author)
+
+---
+
+# Executive Overview
+
+Modern organizations must ensure employees receive the correct level of access throughout their employment lifecycle while minimizing security risk and satisfying compliance requirements.
+
+This repository demonstrates a complete **Microsoft Entra ID Identity Governance implementation** built for a fictional enterprise, **GHOSTD Corporation**.
+
+The implementation simulates how organizations govern user identities from onboarding through termination while supporting:
+
+- Identity Lifecycle Management
 - Role-Based Access Control (RBAC)
-- Joiner Lifecycle
-- Mover Lifecycle
-- Leaver Lifecycle
-- Access Certification
+- Enterprise Application Governance
+- Access Certification Campaigns
 - Remediation Tracking
 - Audit Evidence Generation
 
-## Project Overview
+Rather than demonstrating isolated features, this portfolio presents a complete Identity Governance implementation that mirrors how enterprise IAM teams design, deploy, and document governance solutions.
 
-Organizations rely on Identity Governance to ensure employees receive the correct access throughout their employment lifecycle while reducing security risk and meeting compliance requirements.
+---
 
-This project simulates the implementation of an enterprise Identity Governance program within Microsoft Entra ID for a fictional organization, GHOSTD Corporation.
+# Business Objectives
 
-The implementation demonstrates how user identities are governed from onboarding through termination while supporting least privilege, role-based access control, access certification campaigns, remediation tracking, and audit evidence generation.
+> **Objective**
+>
+> Design and implement a governance-ready Microsoft Entra ID environment capable of supporting secure identity lifecycle management, least privilege, access certification, and audit reporting.
 
-The project is organized as a five-phase implementation that mirrors a real-world Identity Governance deployment.
+### Business Problems Addressed
 
-
-## Business Challenge
-
-Many organizations struggle with:
+Organizations frequently struggle with:
 
 - Manual user provisioning
 - Inconsistent access assignments
-- Privilege accumulation after role changes
+- Privilege accumulation after employee transfers
 - Delayed offboarding
+- Limited visibility into user entitlements
 - Lack of documented access reviews
 - Insufficient audit evidence
 
-Without a structured Identity Governance program, these issues increase operational risk, create compliance gaps, and expand the organization's attack surface.
+Without structured Identity Governance processes, these issues increase operational risk, create compliance gaps, and expand the organization's attack surface.
 
+---
 
-## Solution Overview
+# Solution Overview
 
-This implementation establishes a governance-ready Microsoft Entra environment supporting:
+The solution establishes a governance-ready Microsoft Entra environment supporting:
 
-- Centralized identity management
-- Role-based access control
-- Identity lifecycle management
-- Quarterly access certification
-- Remediation workflows
-- Audit-ready reporting
+| Capability | Status |
+|------------|:------:|
+| Identity Foundation | ✅ |
+| Role-Based Access Control (RBAC) | ✅ |
+| Joiner Lifecycle | ✅ |
+| Mover Lifecycle | ✅ |
+| Leaver Lifecycle | ✅ |
+| Enterprise Application Governance | ✅ |
+| Access Certification | ✅ |
+| Remediation Tracking | ✅ |
+| Audit Evidence Generation | ✅ |
 
-Together these capabilities demonstrate an end-to-end Identity Governance solution similar to enterprise IAM programs.
+---
 
-## Solution Architecture
+# Solution Architecture
 
-*Architecture diagrams will be added here.*
+> **Architecture Diagram**
+>
+> *(Architecture diagrams will be added here.)*
 
-The solution consists of:
+```text
+                Workforce Identities
+                        │
+                        ▼
+              Microsoft Entra ID
+                        │
+        ┌───────────────┼───────────────┐
+        ▼               ▼               ▼
+   Identity Data    Security Groups   Enterprise Apps
+                        │
+                        ▼
+           Role-Based Access Control
+                        │
+                        ▼
+       Joiner → Mover → Leaver Lifecycle
+                        │
+                        ▼
+             Access Certification
+                        │
+                        ▼
+             Remediation Workflow
+                        │
+                        ▼
+             Audit Evidence Export
+```
 
-- Microsoft Entra ID
-- Workforce identities
-- RBAC security groups
-- Enterprise applications
-- Joiner-Mover-Leaver lifecycle
-- Access Certification Platform
-- Audit Evidence Export
+---
+
+# Technology Stack
 
 | Technology | Purpose |
-|------------|---------|
+|------------|----------|
 | Microsoft Entra ID | Identity Platform |
-| Microsoft Entra Groups | RBAC |
-| Enterprise Applications | SaaS Access |
+| Microsoft Entra Security Groups | Role-Based Access Control |
+| Enterprise Applications | SaaS Access Management |
 | Microsoft Excel | Access Review Dataset |
 | React | Access Certification Platform |
-| TypeScript | Platform Logic |
-| GitHub | Version Control |
+| TypeScript | Business Logic |
+| GitHub | Version Control & Portfolio |
 
+---
 
-| Phase   | Description          |
-| ------- | -------------------- |
-| Phase 1 | Identity Foundation  |
-| Phase 2 | Joiner               |
-| Phase 3 | Mover                |
-| Phase 4 | Leaver               |
-| Phase 5 | Access Certification |
+# Implementation Roadmap
 
+| Phase | Deliverable | Status |
+|------|-------------|:------:|
+| Phase 1 | Identity Foundation | ✅ |
+| Phase 2 | Joiner Process | ✅ |
+| Phase 3 | Mover Process | ✅ |
+| Phase 4 | Leaver Process | ✅ |
+| Phase 5 | Access Certification Platform | ✅ |
 
-[Placeholder for Screenshots]
+---
 
+# Solution Gallery
 
-## Skills Demonstrated
+> Screenshots below demonstrate the completed Identity Governance implementation.
+
+| Identity Foundation | RBAC |
+|---------------------|------|
+| *(Screenshot Placeholder)* | *(Screenshot Placeholder)* |
+
+| Joiner Process | Mover Process |
+|---------------|---------------|
+| *(Screenshot Placeholder)* | *(Screenshot Placeholder)* |
+
+| Leaver Process | Access Certification Dashboard |
+|----------------|--------------------------------|
+| *(Screenshot Placeholder)* | *(Screenshot Placeholder)* |
+
+| Remediation Dashboard | Audit Evidence Export |
+|-----------------------|-----------------------|
+| *(Screenshot Placeholder)* | *(Screenshot Placeholder)* |
+
+---
+
+# Skills Demonstrated
+
+### Identity & Access Management
 
 - Microsoft Entra ID
 - Identity Governance
 - Identity Lifecycle Management
-- RBAC
+- Joiner-Mover-Leaver (JML)
+- Role-Based Access Control (RBAC)
 - Least Privilege
 - Enterprise Application Management
+- Identity Attributes
+- Security Group Architecture
+
+### Governance
+
 - Access Reviews
 - Access Certification
 - Entitlement Governance
-- Audit Readiness
 - Access Remediation
-- Governance Documentation
+- Audit Readiness
+- Governance Reporting
+- Compliance Documentation
 
-## Business Outcomes
+### Professional Skills
+
+- Solution Design
+- Technical Documentation
+- Process Development
+- Governance Implementation
+- Business Requirements Analysis
+
+---
+
+# Business Outcomes
 
 This implementation demonstrates how organizations can:
 
-- Standardize user provisioning
-- Reduce manual access administration
-- Enforce least privilege
-- Govern privileged access
-- Support quarterly certification campaigns
-- Track remediation activities
-- Produce audit-ready evidence
+- ✅ Standardize user provisioning
+- ✅ Reduce manual access administration
+- ✅ Enforce Role-Based Access Control
+- ✅ Apply Least Privilege principles
+- ✅ Govern enterprise application access
+- ✅ Support quarterly access certification campaigns
+- ✅ Track remediation activities
+- ✅ Produce audit-ready certification evidence
+- ✅ Improve governance visibility across the organization
 
-## Documentation
+---
 
-Link to:
+# Repository Structure
 
-Executive Case Study (once created)
-Phase 1
-Phase 2
-Phase 3
-Phase 4
-Phase 5
+```text
+ghostd-identity-governance-implementation/
 
-## Future Enhancements
+├── architecture/
+│   ├── Identity-Governance-Architecture.png
+│   ├── RBAC-Architecture.png
+│   ├── Joiner-Mover-Leaver-Workflow.png
+│   └── Access-Certification-Workflow.png
+│
+├── assets/
+│
+├── datasets/
+│   ├── Access_Review_Dataset.xlsx
+│   ├── Entitlement_Catalog.xlsx
+│   └── audit-evidence-export.csv
+│
+├── docs/
+│   ├── Executive-Case-Study.pdf
+│   └── Implementation-Guides/
+│       ├── Phase-1-Identity-Foundation.pdf
+│       ├── Phase-2-Joiner-Process.pdf
+│       ├── Phase-3-Mover-Process.pdf
+│       ├── Phase-4-Leaver-Process.pdf
+│       └── Phase-5-Access-Certification.pdf
+│
+├── examples/
+│
+├── screenshots/
+│
+├── source-code/
+│
+└── README.md
+```
 
-Dynamic Groups
-Lifecycle Workflows
-Privileged Identity Management (PIM)
-Access Packages
-Conditional Access integration
+---
 
-## Author
+# Project Documentation
 
-**Cameron Johnson**
+| Documentation | Description |
+|--------------|-------------|
+| Executive Case Study | High-level implementation summary |
+| Phase 1 | Identity Foundation |
+| Phase 2 | Joiner Process |
+| Phase 3 | Mover Process |
+| Phase 4 | Leaver Process |
+| Phase 5 | Access Certification Platform |
 
-Systems Analyst II transitioning into Identity & Access Management (IAM), focused on Microsoft Entra ID, Identity Governance, and enterprise access management.
+---
 
-- GitHub: https://github.com/Camj78/ghostd-identity-governance-implementation/
-- LinkedIn: https://www.linkedin.com/in/cameron-johnson615/
+# Future Enhancements
 
+| Capability | Status |
+|------------|--------|
+| Dynamic Groups | Planned |
+| Lifecycle Workflows | Planned |
+| Privileged Identity Management (PIM) | Planned |
+| Entitlement Management / Access Packages | Planned |
+| Conditional Access Integration | Planned |
 
+---
 
+# Author
 
+## Cameron Johnson
 
+Systems Analyst II transitioning into **Identity & Access Management (IAM)** with a focus on:
 
+- Microsoft Entra ID
+- Identity Governance
+- Identity Lifecycle Management
+- Enterprise Access Management
 
+**GitHub**
 
+https://github.com/Camj78
 
+**LinkedIn**
+
+https://www.linkedin.com/in/cameronjohnson615/
+
+---
+
+## Portfolio Purpose
+
+This repository demonstrates practical enterprise Identity Governance implementation experience using Microsoft Entra ID.
+
+The project is intended for recruiters, hiring managers, and Identity & Access Management professionals evaluating enterprise Identity Governance knowledge, implementation methodology, technical documentation, and governance design.
+
+---
+
+**© 2026 Cameron Johnson**
