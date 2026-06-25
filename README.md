@@ -93,7 +93,6 @@ The solution establishes a governance-ready Microsoft Entra environment supporti
 
 > **Architecture Diagram**
 >
-> *(Architecture diagrams will be added here.)*
 
 ```text
                 Workforce Identities
@@ -155,7 +154,8 @@ The solution establishes a governance-ready Microsoft Entra environment supporti
 
 | Identity Foundation | RBAC |
 |---------------------|------|
-| *(Screenshot Placeholder)* | *(Screenshot Placeholder)* |
+|<img width="1433" height="572" alt="Phase 1A – Tenant Configuration Complete" src="https://github.com/user-attachments/assets/3e17a8a3-bfcf-4828-84dd-53d020232df7" />
+ | *(Screenshot Placeholder)* |
 
 | Joiner Process | Mover Process |
 |---------------|---------------|
