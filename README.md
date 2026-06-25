@@ -1,6 +1,6 @@
-# Microsoft Entra Identity Governance Program
+# Enterprise Microsoft Entra Identity Governance Implementation
 
-### Enterprise Identity Governance Implementation
+### Identity Governance Program for GHOSTD Corporation
 
 > End-to-end Microsoft Entra ID Identity Governance implementation demonstrating **Role-Based Access Control (RBAC)**, **Identity Lifecycle Management (Joiner–Mover–Leaver)**, **Access Certification**, **Remediation Workflows**, and **Audit-Ready Governance Documentation**.
 
