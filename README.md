@@ -152,22 +152,37 @@ The solution establishes a governance-ready Microsoft Entra environment supporti
 
 > Screenshots below demonstrate the completed Identity Governance implementation.
 
-| Identity Foundation | RBAC |
-|---------------------|------|
-|<img width="1433" height="572" alt="Phase 1A – Tenant Configuration Complete" src="https://github.com/user-attachments/assets/3e17a8a3-bfcf-4828-84dd-53d020232df7" />
- | <img width="1433" height="664" alt="Phase 1C – Security Group Architecture" src="https://github.com/user-attachments/assets/628acffc-70e9-46d3-9a80-f8ff96aa0ea9" />|
+## Identity Foundation
 
-| Joiner Process | Mover Process |
-|---------------|---------------|
-| *(Screenshot Placeholder)* | *(Screenshot Placeholder)* |
+<img width="1433" height="572" alt="Phase 1A – Tenant Configuration Complete" src="https://github.com/user-attachments/assets/c2a1798c-e726-4e91-8d69-fb00b0ebbfb2" />
 
-| Leaver Process | Access Certification Dashboard |
-|----------------|--------------------------------|
-| *(Screenshot Placeholder)* | *(Screenshot Placeholder)* |
+## RBAC
 
-| Remediation Dashboard | Audit Evidence Export |
-|-----------------------|-----------------------|
-| *(Screenshot Placeholder)* | *(Screenshot Placeholder)* |
+<img width="1433" height="664" alt="Phase 1C – Security Group Architecture" src="https://github.com/user-attachments/assets/3bab7c33-e0a4-43db-ad5c-07ba979fbe15" />
+
+## Joiner Process
+
+<img width="2880" height="2638" alt="Phase 2 - Joiner Account Creation" src="https://github.com/user-attachments/assets/7efee212-43d2-421f-b978-8781e34e8bd3" />
+
+## Mover Process
+
+<img width="2880" height="2638" alt="Phase 3 -  User Profile-after" src="https://github.com/user-attachments/assets/ef63be91-8011-4073-b48b-97f377279f08" />
+
+## Leaver Process
+
+<img width="1433" height="664" alt="Screenshot 2026-06-21 at 3 33 23 PM" src="https://github.com/user-attachments/assets/a3543cec-a4a5-4919-bfba-18d3a758b8ed" />
+
+## Access Certification Dashboard
+
+<img width="2880" height="1830" alt="Phase 5 Step3" src="https://github.com/user-attachments/assets/ab90383c-a22a-4de7-8564-9ef478a0bb40" />
+
+## Remediation Dashboard
+
+<img width="1463" height="2048" alt="Phase5-Step6_Remediation_queue" src="https://github.com/user-attachments/assets/0413fbe4-56af-4592-aa96-4c057a6c3eb6" />
+
+## Audit Evidence Export
+
+<img width="2048" height="954" alt="Phase5-Step7 Audit Export" src="https://github.com/user-attachments/assets/16e4563a-2b6e-4916-bed6-432c679a611f" />
 
 ---
 
