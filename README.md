@@ -155,8 +155,7 @@ The solution establishes a governance-ready Microsoft Entra environment supporti
 | Identity Foundation | RBAC |
 |---------------------|------|
 |<img width="1433" height="572" alt="Phase 1A – Tenant Configuration Complete" src="https://github.com/user-attachments/assets/3e17a8a3-bfcf-4828-84dd-53d020232df7" />
- | <img width="1433" height="664" alt="Phase 1C – Security Group Architecture" src="https://github.com/user-attachments/assets/628acffc-70e9-46d3-9a80-f8ff96aa0ea9" />
- |
+ | <img width="1433" height="664" alt="Phase 1C – Security Group Architecture" src="https://github.com/user-attachments/assets/628acffc-70e9-46d3-9a80-f8ff96aa0ea9" />|
 
 | Joiner Process | Mover Process |
 |---------------|---------------|
